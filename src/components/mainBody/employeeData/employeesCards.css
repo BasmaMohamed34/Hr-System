@@ -1,0 +1,29 @@
+#employeesCards{
+    text-align: left;
+   
+  margin: 28.5px 20px 0 0px;
+  padding: 26px 18px 10.2px 57px;
+    background-color: #f7f8f9;
+}
+.addBtn{
+    width: 101px;
+    height: 30px;
+    margin: 3px 30px 1px;
+    border-radius: 5px;
+    background-color: #2764ac;
+    color: #fff;
+    border: 0px;
+}
+.addText{
+    width: 50px;
+  height: 15px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}

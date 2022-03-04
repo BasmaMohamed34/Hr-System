@@ -1,0 +1,72 @@
+#info{
+    list-style: none;
+    text-align: right;
+}
+#info li{
+    display: inline;
+}
+#date{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.83px;
+  /* text-align: right; */
+  color: #474747;
+}
+.bttn{
+    width: 94px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 49px;
+    background-color: #27b40c;
+    border: 0px;
+    font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #fff;
+
+}
+.ic_notifications_active {
+    width: 19.9px;
+    height: 32px;
+    color: #8997a4;
+    padding: 5px 10px 5px 10px;
+    margin: -10px 0 0 25px;
+    vertical-align: middle;  
+    border-left: solid 1px #e8e4e4;
+    
+  }
+.profile-circle {
+    width: 50px;
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    margin: -10px 0 0 5px;
+    border-left: solid 1px #e8e4e4;
+
+}
+.user-name{
+        width: 130px;
+        height: 24px;
+        margin: 17px 3.7px 38px 8px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8997a4;
+}
+
+.ic_keyboard_arrow_left {
+    width: 25px;
+    color: #8997a4;
+  }

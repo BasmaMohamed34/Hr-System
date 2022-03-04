@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap';
+import 'jquery/dist/jquery';
+import '@popperjs/core/dist/esm/popper';
 
 ReactDOM.render(
   <React.StrictMode>

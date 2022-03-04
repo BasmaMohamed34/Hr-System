@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import SideMenu from './components/sideMenu/sidemenu';
+import Main from './components/mainBody/main'
+// import './App.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="row">
+      <div className="col-1" style={{zIndex:99}}>
+        <SideMenu/>
+      </div>
+      <div className="col-11 col-m-8 col-s-4">
+        <Main/>
+      </div>
     </div>
   );
 }
